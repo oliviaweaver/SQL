@@ -1,0 +1,195 @@
+--create a singer database
+
+CREATE TABLE tame_impala 
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT,
+age INTEGER,
+birth_place TEXT,
+spouse TEXT,
+albums TEXT);
+
+INSERT INTO tame_impala (name, age, birth_place, spouse) VALUES ("Kevin Parker", 36, "Sydney Australia", "Sophie Lawrence");
+
+INSERT INTO tame_impala (albums) VALUES ("Innerspeaker");
+
+INSERT INTO tame_impala (albums) VALUES ("Lonerism");
+
+INSERT INTO tame_impala (albums) VALUES ("Currents");
+
+INSERT INTO tame_impala (albums) VALUES ("The Slow Rush");
+
+CREATE TABLE innerspeaker
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+song_title TEXT,
+length_seconds INTEGER);
+
+CREATE TABLE lonerism
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+song_title TEXT,
+length_seconds INTEGER);
+
+CREATE TABLE currents
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+song_title TEXT,
+length_seconds INTEGER);
+
+CREATE TABLE the_slow_rush
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+song_title TEXT,
+length_seconds INTEGER);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("It Is Not Meant to Be", 322);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Desire Be Desire Go", 266);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Alter Ego", 288);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Lucidity", 270);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Why Won't You Make Up Your Mind?", 199);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Solitude Is Bliss", 235);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Jeremy's Storm", 328);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Expectation", 362);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("The Bold Arrow of Time", 264);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Runway, Houses, City, Clouds", 435);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("I Don't Really Mind", 226);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Sundown Syndrome", 350);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Remember Me", 262);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Half Full Glass of Wine", 267);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Wander", 314);
+
+INSERT INTO innerspeaker (song_title, length_seconds) VALUES ("Canyons Sunrise Reprise", 465);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Be Above It", 201);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Endors oi", 186);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Apocalypse Dreams", 356);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Mind Mischief", 271);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Music to Walk Home By", 312);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Why Won't They Talk to Me?", 286);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Feels Like We Only Go Backwards", 192);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Keep on Lying", 354);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Elephant", 211);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("She Just Won't Believe Me", 57);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Nothing That Has Happened So Far Has Been Anything We Could Control", 361);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Sun's Coming Up", 320);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Led Zeppelin", 188);
+
+INSERT INTO lonerism (song_title, length_seconds) VALUES ("Beverly Laurel", 187);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Let It Happen", 466);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Nangs", 107);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("The Moment", 255);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Yes I'm Changing", 270);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Eventually", 319);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Gossip", 55);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("The Less I Know the Better", 218);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Past Life", 227);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Disciples", 108);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Cause I'm a Man", 242);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Reality in Motion", 252);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Love/Paranoia", 190);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("New Person, Same Old Mistakes", 363);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("List of People (To Try and Forget About)", 280);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Powerlines", 259);
+
+INSERT INTO currents (song_title, length_seconds) VALUES ("Taxi's Here", 288);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("One More Year", 322);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Instant Destiny", 193);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Borderline", 237);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Posthumous Forgiveness", 365);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Breathe Deeper", 373);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Tomorrow's Dust", 325);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("On Track", 300);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Lost in Yesterday", 249);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Is It True", 238);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("It Might Be Time", 273);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Glimmer", 128);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("One More Hour", 433);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("Patience", 292);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("The Boat I Row", 238);
+
+INSERT INTO the_slow_rush (song_title, length_seconds) VALUES ("No Choice", 221);
+
+CREATE TABLE top_tracks
+(id INTEGER PRIMARY KEY AUTOINCREMENT,
+song_title TEXT,
+album TEXT);
+
+INSERT INTO top_tracks (song_title, album) VALUES ("The Less I Know The Better", "Currents");
+
+INSERT INTO top_tracks (song_title, album) VALUES ("New Person, Same Old Mistakes", "Currents");
+
+INSERT INTO top_tracks (song_title, album) VALUES ("Eventually", "Currents");
+
+INSERT INTO top_tracks (song_title, album) VALUES ("Borderline", "The Slow Rush");
+
+INSERT INTO top_tracks (song_title, album) VALUES ("One More Hour", "The Slow Rush");
+
+INSERT INTO top_tracks (song_title, album) VALUES ("Feels Like We Only Go Backwards", "Lonerism");
+
+INSERT INTO top_tracks (song_title, album) VALUES ("Let It Happen", "Currents");
+
+INSERT INTO top_tracks (song_title, album) VALUES ("Elephant", "Lonerism");
+
+
+--display the number of top tracks from the "Currents" album
+SELECT COUNT(top_tracks.song_title)
+from top_tracks
+join currents
+on top_tracks.song_title = currents.song_title;
+
+--display the top tracks song titles from the "Currents" album
+SELECT top_tracks.song_title
+from top_tracks
+join currents
+on top_tracks.song_title = currents.song_title;
